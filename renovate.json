@@ -2,11 +2,15 @@
   "extends": [
     "config:base"
   ],
-  "matchDepTypes": [
-    "minor",
-    "patch",
-    "pin",
-    "digest",
-    "major"
+  "packageRules": [
+    {
+      "matchDepTypes": [
+        "minor",
+        "patch",
+        "pin",
+        "digest",
+        "major"
+      ]
+    }
   ]
 }
