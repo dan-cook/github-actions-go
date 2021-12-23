@@ -8,7 +8,7 @@ import (
 )
 
 func main() {
-	pingHandler := &handler.PingHandler{}
+	pingHandler := handler.NewPingHandler()
 
 	mux := http.NewServeMux()
 	mux.Handle("/ping", pingHandler)
