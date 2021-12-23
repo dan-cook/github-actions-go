@@ -11,7 +11,6 @@ import (
 )
 
 func TestServe(t *testing.T) {
-
 	type expected struct {
 		code int
 		body string
